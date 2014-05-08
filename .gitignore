@@ -1,0 +1,6 @@
+# ide netbeans
+nbproject/*
+
+# No seguir
+genesis/*
+genesis.back/*

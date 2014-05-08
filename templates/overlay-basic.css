@@ -1,0 +1,47 @@
+
+/* the overlayed element */
+.simple_overlay {
+	
+	/* must be initially hidden */
+	display:none;
+	
+	/* place overlay on top of other elements */
+	z-index:100000;
+	
+	/* styling */
+	/* aqui le ponemos el color al fondo jeej*/
+	background:#FFF;
+	width:900px;
+height: 432px;
+	
+	border:0px solid #C69;
+	
+	/* CSS3 styling for latest browsers */
+	-IE-box-shadow: 0 0 200px 5px #FFF;
+	-moz-box-shadow: 0 0 200px 5px #FFF;
+	box-shadow: 0 0 200px 5px #FFF;
+	-webkit-box-shadow: 0 0 200px #FFF;
+		
+}
+
+
+
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+	background-image:url(images/close.png);
+	position:absolute;
+	right:-15px;
+	top:-15px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
+
+/* para el tigger*/
+	
+	span{ cursor:pointer;}
+	
+	
+	
+	
+	

@@ -1,0 +1,64 @@
+body{
+	padding: 0px;
+	/* [disabled]margin: 0px; */
+	font-family: arial;
+	/* [disabled]font-size:14px; */
+	text-align: left;
+	background: #000000
+}
+img{border:none}
+a img{border:none}
+#content{width:100%; display:block; margin:0 auto}
+.content{width:900px; display:block; margin:0 auto; padding:15px; background:#ffffff}
+.content1{width:900px; display:block; margin:0 auto; padding:15px; background:#000000}
+.content h1{width:600px; display:block; float:left; padding:0px; margin:0px; line-height:1.8em}
+
+.content1 h1{width:400px; display:block; float:left; padding:0px; margin:0px; line-height:1.8em; color:#ffffff; FONT-SIZE:20PX; text-align:center}
+.content1 .datos{color:#90F491; text-align:left; width:140px; display:block; background:#021F00; padding:10px; font-size:12px; }
+
+#footer{width:100%; display:block; margin:0 auto; background:#333333;}
+.footer{width:900px; display:block; margin:0 auto; padding:15px; text-align:center; color:#ffffff; font-size:12px; line-height:1.8em}
+
+#login{display:block; margin:0 auto; width:500px; text-align:center}
+#login img{margin-bottom:20px}
+#login .fieldcontain{width:80%; height:40px;}
+#login .fieldcontain label{width:40%; height:20px; float:left; text-align:right}
+#login .fieldcontain .input{width:50%; height:20px; float:right; border:1px solid #cccccc; text-align:left; padding-left:5px}
+.button{background:#333333; color:#ffffff; border:1px solid #000000; text-align:center; width:100px; display:block; margin:0 auto; padding:10px}
+.button:hover{background:#000000; color:#ffffff; cursor:pointer}
+
+ul#bases{list-style:none; padding:0px; margin:0px; height:400px; overflow:auto}
+ul#bases li{width:22%; float:left; display:block; height:60px; padding:10px; margin-right:5px; margin-bottom:5px}
+ul#bases li img{width:50px; float:left; margin-right:5px}
+ul#bases li a{font-size:13px; text-decoration:none; color:#ffffff}
+
+ul#bases li.remal{background:gray}
+ul#bases li.mal{background:red}
+ul#bases li.bien{background:green}
+
+#responsecontainer{display:block; width:900px; height:auto; float:left;  }
+#response{display:block; width:175px; height:auto;  text-align:center; }
+#response div{width:170px; float:left; display:block; height:80px; padding:2px;text-align:center; background:#000000; color:#0DF0FF; font-size:38px; font-weight:bold; margin:4px 0px 4px 4px; border: solid 2px #cccccc;}
+#response div h2{width:180px; text-align:center; padding:0px; margin:0px; line-height:1.3em; font-size:12px; color:#00BF02}
+
+
+#spanreloj{background:#000000; display:block; float:right; padding:10px; font-size:40px; color:#0DF0FF; font-weight:bold; text-align:right; width:240px;}
+#parametro ul{list-style:none; padding:0px; margin:0px;}
+#parametro ul li{float:left; width:155px; text-align:left; margin:5px; padding:5px; border:1px solid #cccccc; min-height:50px; display:block}
+
+.clear{clear:both}
+#menu{display:block; height:30px; width:450px; float:right}
+#menu a{font-size:11px;display:block;  border:1px solid #cccccc; padding:4px; text-decoration:none; background:#ffffff;}
+#menu a:hover{background:#333333; color:#ffffff}
+#menu .menu{display:block; height:20px; float:right;margin-left:5px}
+
+
+#menu2{display:block; height:30px; width:450px; float:right}
+#menu2 a{font-size:11px;display:block;  border:1px solid #cccccc; padding:4px; text-decoration:none; background:#ffffff;}
+#menu2 a:hover{background:#333333; color:#ffffff}
+#menu2 .menu2{display:block; height:20px; float:right;margin-left:5px}
+#destino,#destino1,#destino2{
+float:right; height:450px; width:920px; border:0px; display:block; margin-bottom:5px; margin-right: -25px;}
+#container{width: 900px; height:395px; margin: 0 auto}
+
+h2{padding:0px; margin:0px; line-height:1.5em; color:#ffffff; font-size:15px; font-weight:normal}
